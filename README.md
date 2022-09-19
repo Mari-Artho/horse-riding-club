@@ -1,2 +1,2 @@
 # horse-riding-club
-[Link to Github classroom](git@github.com:Mari-Artho/horse-riding-club.git)
+[Link to Github classroom](https://github.com/Medieinstitutet/fed21d-grafiska-verktyg-djungelvral)
