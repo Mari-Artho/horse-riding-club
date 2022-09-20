@@ -57,6 +57,31 @@ input {
   height: 2rem;
 }
 
+.two-horses {
+  border-radius: 50px;
+  width: 400px;
+  height: 350px;
+  -webkit-animation: rotate-anime 12s linear infinite;
+          animation: rotate-anime 12s linear infinite;
+}
+
+@-webkit-keyframes rotate-anime {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-anime {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 footer {
   background-color: #FED469;
   max-height: -webkit-fit-content;

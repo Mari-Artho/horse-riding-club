@@ -49,3 +49,15 @@ input {
     border-radius: 5px;
     @include submitHeight;
 }
+
+.two-horses {
+    border-radius: 50px;
+    width: 400px;
+    height: 350px;
+    animation: rotate-anime 12s linear infinite;
+}
+
+@keyframes rotate-anime {
+    0%  {transform: rotate(0);}
+    100%  {transform: rotate(360deg);}
+  }
