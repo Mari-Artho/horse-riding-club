@@ -1,0 +1,50 @@
+header {
+  background-image: url(../images/header-horse-1920.png);
+  background-size: cover;
+  background-position: 0;
+  position: relative;
+  height: 40vh;
+}
+header h1 {
+  font-family: "Aref Ruqaa Ink", serif;
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 3rem;
+}
+
+section {
+  text-align: center;
+}
+
+.about-us {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.about-us-item {
+  width: 20rem;
+  padding: 1rem;
+}
+.about-us-item h4 {
+  width: 90%;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-around;
+}
+
+.subscribe-message {
+  color: #F04902;
+}
+
+footer {
+  background-color: #FED469;
+  height: 40vh;
+}
+
+body {
+  font-family: "Aref Ruqaa Ink", serif;
+}
+/*# sourceMappingURL=style.css.map */

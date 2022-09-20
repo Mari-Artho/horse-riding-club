@@ -1,0 +1,27 @@
+section {
+    text-align: center;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.about-us-item {
+    width: 20rem;
+    padding: 1rem;
+    h4{
+        width: 90%;
+    }
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subscribe-message {
+    color: #F04902;
+    
+}
