@@ -1,4 +1,23 @@
 footer {
     background-color: #FED469;
-    height: 40vh;
+    max-height: fit-content;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 2rem;
+}
+
+.footer-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 3rem;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-title {
+    margin-left: 7rem;
+    padding-top: 2rem;
 }

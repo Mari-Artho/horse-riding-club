@@ -1,3 +1,7 @@
+@mixin submitHeight {
+    height: 2rem;
+}
+
 section {
     text-align: center;
 }
@@ -11,8 +15,11 @@ section {
 .about-us-item {
     width: 20rem;
     padding: 1rem;
+    background-color: rgba(240, 234, 234, 0.992);
     h4{
-        width: 90%;
+        // width: 90%;
+        text-align: left;
+        padding: 0 2rem;
     }
 }
 
@@ -24,4 +31,21 @@ section {
 .subscribe-message {
     color: #F04902;
     
+}
+
+.submitButton {
+    background-color: #FED469;
+    border-radius: 100px 20px 100px 20px ;
+    margin-left: 1rem;
+    width: 8rem;
+    @include submitHeight;
+    // text-align: center;
+    &:hover {
+        background-color: #EFAD03;
+    }
+}
+
+input {
+    border-radius: 5px;
+    @include submitHeight;
 }
