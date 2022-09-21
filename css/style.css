@@ -52,17 +52,28 @@ section {
   background-color: #EFAD03;
 }
 
+.newsletters {
+  margin-top: 5rem;
+}
+
 input {
   border-radius: 5px;
   height: 2rem;
 }
 
 .two-horses {
+  width: 500px;
+  height: 400px;
+  border-radius: 50px;
+}
+
+.footer-logo {
+  background-image: url(/images/circle-640.png);
   border-radius: 50px;
   width: 400px;
   height: 350px;
-  -webkit-animation: rotate-anime 12s linear infinite;
-          animation: rotate-anime 12s linear infinite;
+  -webkit-animation: rotate-anime 15s linear infinite;
+          animation: rotate-anime 15s linear infinite;
 }
 
 @-webkit-keyframes rotate-anime {
