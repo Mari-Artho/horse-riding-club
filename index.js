@@ -5,8 +5,6 @@ cx.fillStyle = "#F04902";
 cx.margin = 0;
 cx.fillText("SUBSCRIBE!", 70, 100);
 
-/*index.html, CANVAS */
-
 let flg=true;
 function blink(){
 if(flg){
@@ -17,4 +15,30 @@ document.querySelector("canvas").style.visibility="hidden";
 flg=!flg;
 setTimeout(blink, 1000);
 }
-blink();
+blink(); // Blinking subscribe message end.
+
+//Vue.js
+var app = new Vue({
+    el: '#app',
+    data(){
+      return {
+          isShow: true,
+          message: 'Hello!',
+          isHidden: false,
+      }
+    },
+    
+    methods: {
+        viewChange(){
+            this.isShow = false;
+            console.log("you clicked a button");
+        },
+
+        //test
+        submitPhoneNumber() {
+          this.isHidden = true; 
+        }
+    },
+ });
+
+

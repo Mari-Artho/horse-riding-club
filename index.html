@@ -17,8 +17,6 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-    
-    
 </head>
 
 <body>
@@ -82,14 +80,45 @@
             <div>
                 <h4>Contact Us</h4>
                 <h5>Phone: +4601234567</h5>
-                <h5>Email: welovehorses@horse.com</h5>
+                <h5>Email: <a href="/index.html">welovehorses@horse.com </a></h5>
             </div>
             <div>
                 <img class="footer-logo" src="/images/logo.svg" alt="horse logo">
             </div>
         </div>
     </footer>
+
+    <!-- cookie -->
+    <section id="app" class="cookie-section">
+        <h5>{{message}} This website uses cookies</h5>
+        <div class="cookie-flex">
+            <h6>
+                We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+            </h6>
+            <!--test -->
+            <loader title="hello" v-if="!isHidden">
+
+            <div class="cookie-button" >
+                <button @click="viewChange()">Accept</button>
+            </div>
+
+            
+            
+            <button type="button">CLICK</button>
+
+            <div class="cookie-button" >
+                <button v-on:click="submitPhoneNumber()">test</button>
+            </div>
+        
+            
+        </div>
+    </section>
+    <div v-show="isShow">
+        Here is disappeare when user click a button.
+    </div></loader>
     
+    <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <script src="index.js" type="module" defer></script>
 </body>
 </html>
