@@ -22,7 +22,6 @@ var app = new Vue({
     el: '#app',
     data(){
       return {
-          //isShow: true,
           message: 'Hello!',
           isHidden: false,
       }
@@ -31,7 +30,12 @@ var app = new Vue({
     methods: {
         acceptCookie() {
           this.isHidden = true; 
-        }
+        },
+
+        handleSubmit(){
+          alert("Thank you for subscribing 😃 ");
+          console.log('You clicked');
+        },
     },
  });
 
