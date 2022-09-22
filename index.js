@@ -17,25 +17,19 @@ setTimeout(blink, 1000);
 }
 blink(); // Blinking subscribe message end.
 
-//Vue.js
+//Accept cookie by Vue.js
 var app = new Vue({
     el: '#app',
     data(){
       return {
-          isShow: true,
+          //isShow: true,
           message: 'Hello!',
           isHidden: false,
       }
     },
     
     methods: {
-        viewChange(){
-            this.isShow = false;
-            console.log("you clicked a button");
-        },
-
-        //test
-        submitPhoneNumber() {
+        acceptCookie() {
           this.isHidden = true; 
         }
     },
