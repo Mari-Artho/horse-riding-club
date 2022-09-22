@@ -143,6 +143,9 @@ button {
   min-height: 2rem;
   min-width: 6rem;
 }
+button:hover {
+  background-color: #3684cc;
+}
 
 body {
   font-family: "Aref Ruqaa Ink", serif;

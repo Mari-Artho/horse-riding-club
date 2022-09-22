@@ -20,6 +20,9 @@ button {
     margin: 0 1rem 0 1rem;
     min-height: 2rem;
     min-width: 6rem;
+    &:hover{
+        background-color: #3684cc;
+    }
 }
 
 
