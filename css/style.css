@@ -50,9 +50,13 @@ section {
   margin-left: 1rem;
   width: 8rem;
   height: 2rem;
+  border: 2px dashed #e38787;
+  box-shadow: 0 0 0 5px #FED469;
 }
 .submitButton:hover {
   background-color: #EFAD03;
+  border: 2px dashed #FED469;
+  box-shadow: 0 0 0 5px #EFAD03;
 }
 
 .newsletters {
