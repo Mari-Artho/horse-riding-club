@@ -160,8 +160,63 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .about-us-item {
+    margin-top: 0.5rem;
+  }
   .submitButton {
     margin-top: 1rem;
+  }
+}
+/* Mobile*/
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  .about-us {
+    flex-direction: column;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .about-us-item {
+    margin-top: 0.5rem;
+  }
+  .subscribe {
+    flex-direction: column;
+  }
+  .two-horses {
+    width: 300px;
+    height: 250px;
+  }
+  canvas {
+    height: 100px;
+    margin: 0;
+  }
+  .submit-input {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .submit-input input {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 1rem;
+  }
+  .footer-flex {
+    flex-direction: column;
+  }
+  .footer-title {
+    text-align: left;
+    margin-left: 0.25rem;
+  }
+  .footer-logo-locate {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .cookie-flex {
+    flex-direction: column;
   }
 }
 body {
