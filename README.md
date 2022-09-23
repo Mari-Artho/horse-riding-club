@@ -13,7 +13,7 @@ The image of a horse eating carrots and the horse logo represent the friendlines
 
 ## Graphics & Guidelines
 
-Logo:
+#### Logo:
 
  In exchange for creating horse logo for free, we must place the following credit somewhere on this homepage.
  footer is best.
@@ -22,14 +22,15 @@ Logo:
 
 Create favicon with the logo.
 
-Button:
+#### Button:
+
 'Submit' & 'Accept' buttons becomes a hover. Specify the color in Figma.
 
-Typography:
+#### Typography:
 
 Increase the font size of the first letter of 'about-us' items.
 
-Color:
+#### Color:
 
 The footer color is gradation. #FED469 to #f 6a417. Specify other colors in Figma.
 
@@ -37,7 +38,7 @@ Accessibility:
 
 ![picture](images/color-contrast.png)
 
-Animation:
+#### Animation:
 
 The header is animated from left to right.
 
