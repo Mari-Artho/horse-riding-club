@@ -41,4 +41,8 @@ var app = new Vue({
     },
  });
 
+ //Green sock animation
+ gsap.from("header", {duration:3, x:"-100%", ease: 'bounce'})
+ 
+
 
