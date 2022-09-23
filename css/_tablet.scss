@@ -1,0 +1,15 @@
+//----------Tablet------------------------------
+@media screen and ( max-width:960px){
+    .about-us {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about-us-item {
+        margin-top: 0.5rem;
+    }
+
+    .submitButton {
+        margin-top: 1rem;
+    }
+}
