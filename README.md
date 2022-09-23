@@ -34,13 +34,15 @@ Increase the font size of the first letter of 'about-us' items.
 
 The footer color is gradation. #FED469 to #f 6a417. Specify other colors in Figma.
 
-Accessibility:
+#### Accessibility:
 
 ![picture](images/color-contrast.png)
 
 #### Animation:
 
 The header is animated from left to right.
+
+The 'about us' items are displayed in chronological order from left to right.
 
 The logo rotates clockwise.
 
