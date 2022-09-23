@@ -94,7 +94,7 @@ input {
   }
 }
 footer {
-  background-color: #FED469;
+  background-image: linear-gradient(#FED469, #f6a417);
   max-height: -webkit-fit-content;
   max-height: -moz-fit-content;
   max-height: fit-content;

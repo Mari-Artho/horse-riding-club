@@ -30,8 +30,8 @@ var app = new Vue({
     methods: {
         acceptCookie() {
           this.isHidden = true; 
-          console.log('click cookie button!!');
-          alert("Thank you !!😃");
+          // console.log('click cookie button!!');
+          // alert("Thank you !!😃");
         },
 
         // hello(){
