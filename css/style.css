@@ -31,6 +31,9 @@ section {
   text-align: left;
   padding: 0 2rem;
 }
+.about-us-item h4::first-letter {
+  font-size: 2rem;
+}
 
 .subscribe {
   display: flex;

@@ -19,6 +19,9 @@ section {
     h4{
         text-align: left;
         padding: 0 2rem;
+        &::first-letter {
+            font-size: 2rem;
+        }
     }
 }
 
