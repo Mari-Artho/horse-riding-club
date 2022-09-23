@@ -30,12 +30,14 @@ var app = new Vue({
     methods: {
         acceptCookie() {
           this.isHidden = true; 
+          console.log('click cookie button!!');
+          alert("Thank you !!😃");
         },
 
-        handleSubmit(){
-          alert("Thank you for subscribing 😃 ");
-          console.log('You clicked');
-        },
+        // hello(){
+        //   console.log('click cookie button!!');
+        //   alert("Thank you !!😃");
+        // }
     },
  });
 

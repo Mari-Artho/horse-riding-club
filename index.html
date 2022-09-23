@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horse Riding Club</title>
+    <!-- fabicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&display=swap" rel="stylesheet"> 
@@ -47,7 +50,7 @@
                 </div>
                 <div class="about-us-item">
                     <h3>Special Course</h3>
-                    <img src="/images/special-course-640.jpg" alt="Special Course"
+                    <img src="/images/special-course-640.png" alt="Special Course"
                     width="250px" height="200px">
                     <h4>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -65,7 +68,7 @@
             <canvas></canvas>
             <p>Subscribe to our newsletters</p>
             <input type="text" placeholder="Your Name"/>
-            <button class="submitButton" @click="handleSubmit()">SUBMIT</button>
+            <button class="submitButton">SUBMIT</button>
         </div>
     </section>
     
@@ -87,6 +90,7 @@
             </div>
         </div>
     </footer>
+    <h5>Logo is <a href="https://www.designevo.com/" title="free online logo maker">DesignEvo</a> Made by logomaker</h5>
 
     <!-- cookie -->
     <section id="app" class="cookie-section" v-if="!isHidden">
@@ -101,9 +105,11 @@
             </div>
         </div>
     </section>
-    
+
+    <!-- <button @click="hello()">TEST</button> -->
+
     <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-    <script src="index.js" type="module" defer></script>
+    <script src="index.js" type="module"></script>
 </body>
 </html>
