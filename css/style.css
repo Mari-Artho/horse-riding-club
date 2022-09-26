@@ -13,7 +13,7 @@ header h1 {
 }
 
 ul {
-  list-style-image: url(../images/favicon-list.png);
+  list-style-image: url(images/favicon-list.png);
   margin: 0;
   display: flex;
   justify-content: flex-end;
@@ -190,6 +190,11 @@ button:hover {
   header h1 {
     font-size: 2rem;
   }
+  nav ul {
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .about-us {
     display: grid;
     grid-template-columns: 1fr;
@@ -199,6 +204,9 @@ button:hover {
   }
   .about-us-item {
     margin-top: 0.5rem;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .subscribe {
     flex-direction: column;

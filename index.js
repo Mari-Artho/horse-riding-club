@@ -35,7 +35,7 @@ var app = new Vue({
  });
 
  //Green sock animation
- //Headers are inserted from left to right on the screen.å
+ //Headers are inserted from left to right on the screen.
  gsap.from("header", {duration: 3, x: "-100%", ease: 'bounce'})
 //'about us' appear in order from left to right over 3 seconds.
  gsap.from(".about-us-item", {duration: 3, opacity:0, delay: 1, stagger: .5})
