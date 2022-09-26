@@ -14,7 +14,7 @@ header{
 
 ul {
     // list-style: none;
-    list-style-image: url(images/favicon-list.png);
+    list-style-image: url(../images/favicon-list.png);
     margin: 0;
     display: flex;
     justify-content: flex-end;
@@ -22,13 +22,15 @@ ul {
         margin-right: 2rem;
         font-size: large;
         width: 7rem;
-        display: inline-block;
-        text-align: center;
+        //display: inline-block;
+        text-align: left;
+        vertical-align: middle;
         // &:hover{
         //     color: #EFAD03;
         // }
         a {
             text-decoration: none;
+            // padding-bottom: 2rem;
         }
     }
 }

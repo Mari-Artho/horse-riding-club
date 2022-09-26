@@ -13,7 +13,7 @@ header h1 {
 }
 
 ul {
-  list-style-image: url(images/favicon-list.png);
+  list-style-image: url(../images/favicon-list.png);
   margin: 0;
   display: flex;
   justify-content: flex-end;
@@ -22,8 +22,8 @@ ul li {
   margin-right: 2rem;
   font-size: large;
   width: 7rem;
-  display: inline-block;
-  text-align: center;
+  text-align: left;
+  vertical-align: middle;
 }
 ul li a {
   text-decoration: none;
