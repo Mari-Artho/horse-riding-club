@@ -30,20 +30,14 @@ var app = new Vue({
     methods: {
         acceptCookie() {
           this.isHidden = true; 
-          // console.log('click cookie button!!');
-          // alert("Thank you !!😃");
         },
-
-        // hello(){
-        //   console.log('click cookie button!!');
-        //   alert("Thank you !!😃");
-        // }
     },
  });
 
  //Green sock animation
+ //Headers are inserted from left to right on the screen.å
  gsap.from("header", {duration: 3, x: "-100%", ease: 'bounce'})
-//about us animation
- gsap.from(".about-us-item", {duration: 4, opacity:0, delay: 1, stagger: .5})
+//'about us' appear in order from left to right over 3 seconds.
+ gsap.from(".about-us-item", {duration: 3, opacity:0, delay: 1, stagger: .5})
 
 
