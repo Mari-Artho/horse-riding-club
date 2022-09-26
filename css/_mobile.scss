@@ -10,7 +10,11 @@
         ul{
         display: block;
         flex-direction: column;
-        justify-content: space-between
+        justify-content: space-between;
+        height: 8rem;
+        li {
+            line-height: 0.5rem;
+        }
         }
     }
 

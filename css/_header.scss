@@ -18,11 +18,13 @@ ul {
     margin: 0;
     display: flex;
     justify-content: flex-end;
+    height: 2rem;
     li {
+        line-height: 2rem;
+        padding-bottom: 2rem;
         margin-right: 2rem;
         font-size: large;
         width: 7rem;
-        //display: inline-block;
         text-align: left;
         vertical-align: middle;
         // &:hover{
@@ -30,7 +32,7 @@ ul {
         // }
         a {
             text-decoration: none;
-            // padding-bottom: 2rem;
+            color: black
         }
     }
 }
