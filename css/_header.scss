@@ -22,14 +22,18 @@ ul {
         margin-right: 2rem;
         font-size: large;
         width: 7rem;
-        // vertical-align: middle;
         display: inline-block;
         text-align: center;
-        :hover {
-            color: #EFAD03;
-        }
+        // &:hover{
+        //     color: #EFAD03;
+        // }
         a {
             text-decoration: none;
         }
     }
+}
+
+// Hover not working when nested.
+ul li :hover{
+    color: #EFAD03;
 }

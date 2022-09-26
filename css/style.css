@@ -25,11 +25,12 @@ ul li {
   display: inline-block;
   text-align: center;
 }
-ul li :hover {
-  color: #EFAD03;
-}
 ul li a {
   text-decoration: none;
+}
+
+ul li :hover {
+  color: #EFAD03;
 }
 
 section {
@@ -251,6 +252,6 @@ body {
 }
 
 :root {
-  --main-grey: rgba(241, 238, 238, 0.992);
+  --main-grey: #F1EEEE;
 }
 /*# sourceMappingURL=style.css.map */
