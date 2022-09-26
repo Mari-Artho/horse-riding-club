@@ -7,7 +7,32 @@ header{
     h1 {
         font-family: 'Aref Ruqaa Ink', serif;
         text-align: center;
-        padding-top: 4rem;
+        margin-top: 0;
         font-size: 3rem;
+        color: red;
+    }
+}
+
+ul {
+    // list-style: none;
+    list-style-image: url(/images/favicon-list.png);
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    color: red;
+   
+    li {
+        margin-right: 1rem;
+        font-size: large;
+        background-color: yellow;
+        color: red;
+        &:hover{
+            color: red;
+        }
+        a {
+            text-decoration: none;
+            color: red;
+            
+        }
     }
 }

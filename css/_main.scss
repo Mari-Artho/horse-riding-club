@@ -16,7 +16,7 @@ section {
     width: 20rem;
     padding: 1rem;
     margin: 1rem;
-    background-color: rgba(241, 238, 238, 0.992);
+    background-color: var(--main-grey);
     h4{
         text-align: left;
         padding: 0 2rem;
@@ -31,11 +31,6 @@ section {
     justify-content: space-around;
 }
 
-.subscribe-message {
-    color: #F04902;
-    
-}
-
 .submitButton {
     background-color: #FED469;
     border-radius: 100px 20px 100px 20px ;
@@ -44,11 +39,11 @@ section {
     @include submitHeight;
     border: 2px dashed #e38787;
     box-shadow: 0 0 0 5px #FED469;
+    cursor: pointer;
     &:hover {
         background-color: #EFAD03;
         border: 2px dashed #FED469;
         box-shadow: 0 0 0 5px #EFAD03;;
-
     }
 }
 

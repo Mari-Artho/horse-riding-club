@@ -8,8 +8,30 @@ header {
 header h1 {
   font-family: "Aref Ruqaa Ink", serif;
   text-align: center;
-  padding-top: 4rem;
+  margin-top: 0;
   font-size: 3rem;
+  color: red;
+}
+
+ul {
+  list-style-image: url(/images/favicon-list.png);
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  color: red;
+}
+ul li {
+  margin-right: 1rem;
+  font-size: large;
+  background-color: yellow;
+  color: red;
+}
+ul li:hover {
+  color: red;
+}
+ul li a {
+  text-decoration: none;
+  color: red;
 }
 
 section {
@@ -26,7 +48,7 @@ section {
   width: 20rem;
   padding: 1rem;
   margin: 1rem;
-  background-color: rgba(241, 238, 238, 0.992);
+  background-color: var(--main-grey);
 }
 .about-us-item h4 {
   text-align: left;
@@ -41,10 +63,6 @@ section {
   justify-content: space-around;
 }
 
-.subscribe-message {
-  color: #F04902;
-}
-
 .submitButton {
   background-color: #FED469;
   border-radius: 100px 20px 100px 20px;
@@ -53,6 +71,7 @@ section {
   height: 2rem;
   border: 2px dashed #e38787;
   box-shadow: 0 0 0 5px #FED469;
+  cursor: pointer;
 }
 .submitButton:hover {
   background-color: #EFAD03;
@@ -223,5 +242,9 @@ button:hover {
 }
 body {
   font-family: "Aref Ruqaa Ink", serif;
+}
+
+:root {
+  --main-grey: rgba(241, 238, 238, 0.992);
 }
 /*# sourceMappingURL=style.css.map */
